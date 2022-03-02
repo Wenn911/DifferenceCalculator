@@ -11,10 +11,10 @@ The capabilities of the utility:
 * Report generation as plain text, stylish and json
 
 # Installation
-Clone or fork repository
-**$ make install**
-**$ make test**
-**$ make lint**
+Clone or fork repository  
+**make install**
+**make test**
+**make lint**
 
 [![asciicast](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ.svg)](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ)
 
