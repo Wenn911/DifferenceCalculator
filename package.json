@@ -6,7 +6,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "type": "module",
-  "main": "index.js",
+  "main": "src/parsers/index.js",
   "jest": {
     "testEnvironment": "node",
     "transform": {}
