@@ -12,13 +12,13 @@
     "transform": {}
   },
   "scripts": {
-    "test": "npx jest"
+    "test": "npx -n --experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Wenn911/frontend-project-lvl2.git"
   },
-  "author": "Rostislav ",
+  "author": "Rostislav",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Wenn911/frontend-project-lvl2/issues"
