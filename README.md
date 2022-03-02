@@ -12,9 +12,9 @@ The capabilities of the utility:
 
 # Installation
 Clone or fork repository  
-**make install**
-**make test**
-**make lint**
+**make install**  
+**make test**  
+**make lint**  
 
 [![asciicast](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ.svg)](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ)
 
