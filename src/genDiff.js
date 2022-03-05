@@ -5,7 +5,7 @@ import format from './formatters/index.js';
 import buildDiff from './differ.js';
 
 const getFileData = (filePath) => {
-  const type = path.extname(filePath).substr(1);
+  const type = path.extname(filePath).substring(1);
   const content = fs.readFileSync(filePath, 'utf8');
 
   return { content, type };
