@@ -19,12 +19,7 @@ Clone or fork repository
 
 # Asciinema
 
-[![asciicast](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ.svg)](https://asciinema.org/a/pkUZNeHPhyUJYGHxmURmGuubZ)
-
-[![asciicast](https://asciinema.org/a/CFM1ZxZKEKRUK4Lgsy1SzOuJs.svg)](https://asciinema.org/a/CFM1ZxZKEKRUK4Lgsy1SzOuJs)
-
-[![asciicast](https://asciinema.org/a/rqTDqcYCjQKuaiOcvICDs7U4x.svg)](https://asciinema.org/a/rqTDqcYCjQKuaiOcvICDs7U4x)
-
-[![asciicast](https://asciinema.org/a/y1c9vektkqowhZ0IJmluI04YX.svg)](https://asciinema.org/a/y1c9vektkqowhZ0IJmluI04YX)
-
-[![asciicast](https://asciinema.org/a/1eu2BRSy2r8djcyg6FI9Xp4bS.svg)](https://asciinema.org/a/1eu2BRSy2r8djcyg6FI9Xp4bS)
+1.[![asciicast](https://asciinema.org/a/66OpPrsbXtFRr0HSKGxKgd76X.svg)](https://asciinema.org/a/66OpPrsbXtFRr0HSKGxKgd76X)
+2.[![asciicast](https://asciinema.org/a/YyI6H5bIhZgFYbxSEv6ooaQck.svg)](https://asciinema.org/a/YyI6H5bIhZgFYbxSEv6ooaQck)
+3.[![asciicast](https://asciinema.org/a/irqqlGBrsHh01vdFWyER23hyL.svg)](https://asciinema.org/a/irqqlGBrsHh01vdFWyER23hyL)
+4.[![asciicast](https://asciinema.org/a/acSwWlS6hKc5dgaDIMndDVRGO.svg)](https://asciinema.org/a/acSwWlS6hKc5dgaDIMndDVRGO)
