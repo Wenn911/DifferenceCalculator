@@ -1,3 +1,3 @@
-import gendiff from './bin/funcs.js';
+import comparator from './src/comparator.js';
 
-export default gendiff;
+export default comparator;
