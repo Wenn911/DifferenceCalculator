@@ -15,6 +15,8 @@ The capabilities of the utility:
 # Installation
 Clone or fork repository  
 **make install**  
+
+# Test & linter
 **make test**  
 **make lint**  
 
