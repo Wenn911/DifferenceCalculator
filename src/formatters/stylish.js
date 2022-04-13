@@ -30,7 +30,7 @@ const stringify = (val, depth) => {
   return ['{', ...lines, `${indents.closeBracket}}`].join('\n');
 };
 
-const makeStylishOutput = (currentValue, depth = 0) => {
+const makeStylishOutput = (currentValue, depth = 1) => {
   const indents = createIndent(depth);
 
   const lines = currentValue.map((line) => {
