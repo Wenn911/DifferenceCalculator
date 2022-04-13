@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { program } from 'commander';
-import comparator from '../index.js';
+import genDiff from '../index.js';
 
 program
   .version('0.0.1')
@@ -13,7 +13,7 @@ program
 
 program.action((filepath1, filepath2) => {
   const { format } = program.opts();
-  console.log(comparator(filepath1, filepath2, format));
+  console.log(genDiff(filepath1, filepath2, format));
 });
 
 program
