@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import comparator from '../src/comparator.js';
+import genDiff from '../src/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -24,14 +24,14 @@ const expectedDataPlain = fs.readFileSync(
 );
 
 test('compare json files (default output):', () => {
-  const actualData = comparator(getFixturePath('file1.json'), getFixturePath('file2.json'));
+  const actualData = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'));
   expect(actualData).toBe(expectedDataStylish);
 });
 test('compare flat yml files (plain output):', () => {
-  const actualData = comparator(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'plain');
+  const actualData = genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'plain');
   expect(actualData).toBe(expectedDataPlain);
 });
 test('compare json file with yml file (json output):', () => {
-  const actualData = comparator(getFixturePath('file1.json'), getFixturePath('file2.yml'), 'json');
+  const actualData = genDiff(getFixturePath('file1.json'), getFixturePath('file2.yml'), 'json');
   expect(actualData).toBe(expectedDataJson);
 });
