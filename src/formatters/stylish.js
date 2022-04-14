@@ -2,11 +2,11 @@ import _ from 'lodash';
 
 const createIndent = (level) => {
   const replacer = '  ';
-  const spacesCount = 1;
+  const spacesCount = 2;
   const indentSize = level * spacesCount;
 
   const indents = {
-    openBracket: replacer.repeat(indentSize),
+    openBracket: replacer.repeat(indentSize - 1),
     closeBracket: replacer.repeat(indentSize - spacesCount),
   };
 
@@ -24,7 +24,7 @@ const stringify = (val, depth) => {
       return `${indents.openBracket}  ${key}: ${value}`;
     }
 
-    return `${indents.openBracket}  ${key}: ${stringify(value, depth + 2)}`;
+    return `${indents.openBracket}  ${key}: ${stringify(value, depth + 1)}`;
   });
 
   return ['{', ...lines, `${indents.closeBracket}}`].join('\n');
@@ -34,7 +34,7 @@ const makeStylishOutput = (currentValue, depth = 1) => {
   const indents = createIndent(depth);
 
   const lines = currentValue.map((line) => {
-    const makeValue = stringify(line.value, depth + 2);
+    const makeValue = stringify(line.value, depth + 1);
 
     switch (line.status) {
       case 'added':
@@ -45,10 +45,10 @@ const makeStylishOutput = (currentValue, depth = 1) => {
         return [
           `${indents.openBracket}- ${line.key}: ${stringify(
             line.oldValue,
-            depth + 2,
+            depth + 1,
           )}\n${indents.openBracket}+ ${line.key}: ${stringify(
             line.newValue,
-            depth + 2,
+            depth + 1,
           )}`,
         ].join('\n');
       case 'unchanged':
@@ -57,7 +57,7 @@ const makeStylishOutput = (currentValue, depth = 1) => {
         return [
           `${indents.openBracket}  ${line.key}: ${makeStylishOutput(
             line.children,
-            depth + 2,
+            depth + 1,
           )}`,
         ];
       default:
