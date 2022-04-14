@@ -23,3 +23,7 @@ Clone or fork repository
 # Asciinema
 
 1.[![asciicast](https://asciinema.org/a/CkygRopaLZkPIZOLQ7iwulYHA.svg)](https://asciinema.org/a/CkygRopaLZkPIZOLQ7iwulYHA)
+2.[![asciicast](https://asciinema.org/a/y0hydbMoeNfuGmkvrIhIDUKow.svg)](https://asciinema.org/a/y0hydbMoeNfuGmkvrIhIDUKow)
+3.[![asciicast](https://asciinema.org/a/dZWQrRzVzYpNZWODqZSqiqTNe.svg)](https://asciinema.org/a/dZWQrRzVzYpNZWODqZSqiqTNe)
+4.[![asciicast](https://asciinema.org/a/EqPjsRJ1TA3Tgl1oVlvhAQcgg.svg)](https://asciinema.org/a/EqPjsRJ1TA3Tgl1oVlvhAQcgg)
+5.[![asciicast](https://asciinema.org/a/kAQm2BpLupbJLPfWW9zXRfdPo.svg)](https://asciinema.org/a/kAQm2BpLupbJLPfWW9zXRfdPo)
