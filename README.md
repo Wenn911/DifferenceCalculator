@@ -12,18 +12,37 @@ The capabilities of the utility:
 * Support for different input formats: yaml, json
 * Report generation as plain text, stylish and json
 
-# Installation
-Clone or fork repository  
-**make install**  
+## Installation
+Clone or fork repository
+`git clone`
+`make install` 
 
-# Test & linter
-**make test**  
-**make lint**  
+## Test & linter
+`make test`
+`make lint`  
+***
 
-# Asciinema
+Examples:
+    # format plain
+    gendiff --format plain path/to/file.yml another/path/file.json
 
-1.[![asciicast](https://asciinema.org/a/CkygRopaLZkPIZOLQ7iwulYHA.svg)](https://asciinema.org/a/CkygRopaLZkPIZOLQ7iwulYHA)
-2.[![asciicast](https://asciinema.org/a/y0hydbMoeNfuGmkvrIhIDUKow.svg)](https://asciinema.org/a/y0hydbMoeNfuGmkvrIhIDUKow)
-3.[![asciicast](https://asciinema.org/a/dZWQrRzVzYpNZWODqZSqiqTNe.svg)](https://asciinema.org/a/dZWQrRzVzYpNZWODqZSqiqTNe)
-4.[![asciicast](https://asciinema.org/a/EqPjsRJ1TA3Tgl1oVlvhAQcgg.svg)](https://asciinema.org/a/EqPjsRJ1TA3Tgl1oVlvhAQcgg)
-5.[![asciicast](https://asciinema.org/a/kAQm2BpLupbJLPfWW9zXRfdPo.svg)](https://asciinema.org/a/kAQm2BpLupbJLPfWW9zXRfdPo)
+    Property 'common.follow' was added with value: false
+    Property 'group1.baz' was updated. From 'bas' to 'bars'
+    Property 'group2' was removed
+
+    # формат stylish
+    gendiff filepath1.json filepath2.json
+
+    {
+    + follow: false
+        setting1: Value 1
+    - setting2: 200
+    - setting3: true
+    + setting3: {
+            key: value
+        }
+    + setting4: blah blah
+    + setting5: {
+            key5: value5
+        }
+    }
