@@ -22,7 +22,8 @@ Clone or fork repository
 `make lint`  
 ***
 
-Examples:
+### Examples:
+
     # format plain
     gendiff --format plain path/to/file.yml another/path/file.json
 
@@ -30,7 +31,7 @@ Examples:
     Property 'group1.baz' was updated. From 'bas' to 'bars'
     Property 'group2' was removed
 
-    # формат stylish
+    # format stylish
     gendiff filepath1.json filepath2.json
 
     {
